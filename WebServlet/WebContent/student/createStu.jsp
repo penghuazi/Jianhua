@@ -2,9 +2,9 @@
 <%@ include file="/common/header_1.jsp" %>
 <html>
 <head>
-<script type="text/javascript" language="JavaScript">
+<script type="text/javascript" >
 function checkSubmit(){
-	var name =$("#student_name").val;
+	var name =$("#student_name").val();
 	alert(name);
 	if(name ==""){
 		alert("Student name can not empty!");

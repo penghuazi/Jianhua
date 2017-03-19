@@ -37,5 +37,5 @@ public class Student implements Serializable{
 	private int stuId;
 	private String name;
 	private String desc;
-	private String level;
+	protected String level;
 }
